@@ -1,7 +1,5 @@
 # Cruise Critic Database, Power BI & AI Analytics Project
 
-**Collaborators: Abrar Jawad Tarafder**
-
 ## Overview
 This project is based on a completed **EECS 3421 – Database Systems** group project that designed and implemented a relational database for a simplified **Cruise Critic** cruise booking and review platform.  
 
