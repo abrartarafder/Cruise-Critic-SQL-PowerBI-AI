@@ -116,7 +116,7 @@ def execute_plan(dataset: Dataset, plan: QueryPlan, scope: Filters | None = None
 
 def summarize(result: QueryResult) -> str:
     if result.table.empty:
-        return "No deal records match this question and the active filters. Try widening the year range or removing a filter."
+        return "No deal records match this question. Try a different year, cruise line, or price."
     plan, table = result.plan, result.table
     _, metric_label, unit = METRICS[plan.metric]
 
